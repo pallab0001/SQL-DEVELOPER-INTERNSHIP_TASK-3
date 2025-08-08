@@ -1,0 +1,17 @@
+-- 1.Use SELECT * and specific columns
+SELECT * FROM  Book;
+
+--2.Apply WHERE, AND, OR, LIKE, BETWEEN
+SELECT book_id,title FROM Book WHERE publication_year ='2008';
+SELECT book_id,title FROM Book WHERE publication_year >'2008';
+
+SELECT * FROM Member;
+SELECT first_name,last_name FROM Member WHERE phone ='9000000001' AND member_id ='1';
+SELECT first_name,last_name FROM Member WHERE phone ='9000000001' OR member_id ='2';
+
+SELECT * FROM Member where  email like '%pallab@example.com%' OR address = 'Mumbai';
+
+SELECT first_name,last_name FROM Member WHERE member_id BETWEEN 2 AND 4;
+
+SELECT * FROM Member ORDER BY member_id DESC;
+SELECT * FROM Member ORDER BY member_id DESC LIMIT 2;
