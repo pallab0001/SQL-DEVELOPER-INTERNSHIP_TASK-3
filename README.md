@@ -15,7 +15,7 @@ This repository includes solutions for **Task 3** of the SQL Developer Internshi
 ## 🛠 SQL Topics Covered
 
 - `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`
-- `LIKE`, `BETWEEN`
+- `LIKE`, `BETWEEN`,`ASC/DESC`
 - Basic Interview Q&A with code examples
 
 ---
